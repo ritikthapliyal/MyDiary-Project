@@ -1,0 +1,110 @@
+html{
+  font-family: 'Klee One', cursive;
+}
+
+body{
+  margin: 0px;
+  justify-content: center;
+  display: flex;
+  background-image: url("images/2.jpg");
+  border-image-width: auto;
+}
+
+.logo{
+  margin-right: 20px;
+  width: 80px;
+  background-color: white;
+  border-radius: 20%;
+  margin-top: 20px;
+}
+.p_welcome{
+  font-size: 20px;
+  margin-top: 8px;
+}
+.main_body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-top: 7%;
+  height: fit-content;
+  background-color: #FDFFCD;
+  opacity: 0.9;
+}
+.main_body:hover{
+  background-color: #F4F9F4;
+  opacity:1.0;
+  filter:alpha(opacity=100);
+}
+form{
+  padding: 20px;
+  margin: 0px;
+}
+.signin{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signin_input{
+  width: 100%;
+  margin: 20px 0px;
+  height: 40px;
+
+  padding: 5px;
+  box-sizing:border-box;
+  font-size: 18px;
+  font: inherit;
+  background-color: #EEEEEE;
+  border: none;
+  margin-bottom: 10px;
+}
+.signin_button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  font-size: inherit;
+  background-color: #E4FBFF;
+  font-weight: bold;
+  border-radius:20px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: inherit;
+  color: #726A95;
+  padding-bottom: 4px;
+}
+.signin_button:hover{
+  background-color: #39A2DB;
+}
+
+.login{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+  border-style: ridge;
+  border-width: 2px 0px 0px;
+}
+.p_login{
+  margin: 16px 0px 5px 5px;
+}
+.login_button{
+  width: 80%;
+  height: 30px;
+  border: none;
+  font-size: inherit;
+  background-color: #E4FBFF;
+  font-weight: bold;
+  border-radius:20px;
+  color: #334257;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-family: inherit;
+  color: #726A95;
+  padding: 0px;
+}
+.login_button:hover{
+  background-color: #39A2DB;
+}

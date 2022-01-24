@@ -1,0 +1,119 @@
+html{
+  font-family: 'Klee One', cursive;
+}
+body{
+    margin: 0px ;
+    background-image: url("images/3.jpg");
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.navbar{
+  max-width: 640px;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  background-color: #E4FBFF;
+  border-style: solid;
+  border-width: 2px;
+}
+.navbar_brand{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar_logo{
+  margin-right: 20px;
+  width: 80px;
+  background-color: white;
+  border-radius: 20%;
+}
+.navbar_navigation{
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  color: #726A95;
+}
+.navbar_navigation_item{
+  padding-left: 50px;
+}
+.navbar_link{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.main{
+  max-width: 450px;
+  margin: 0px auto;
+  padding: 0 20px;
+  background-color: white;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+.form_textarea{
+  width:100%;
+  padding: 5px;
+  box-sizing:border-box;
+  height: 150px;
+  font-size: 18px;
+  font: inherit;
+  background-color: #EEEEEE;
+  border: none;
+  margin-bottom: 10px;
+}
+.form_submit{
+  width: 70px;
+  height: 25px;
+  float:right;
+  border: none;
+  font-size: inherit;
+  background-color: #E4FBFF;
+  font-weight: bold;
+  border-radius:20px;
+  color: #334257;
+  cursor: pointer;
+}
+.form_submit:hover{
+  background-color: #39A2DB;
+}
+
+.entry{
+  width: inherit; 
+  background-color: #E4FBFF;
+}
+.entry_title{
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+}
+.entry_date{
+  color: #584153;
+}
+.entry_content{
+  margin-left: 10px;
+  margin-top: 8px;
+  margin-bottom: 0px;;
+}
+
+
+.delete_link{
+  width: 70px;
+  height: 25px;
+  float:right;
+  border: none;
+  font-size: inherit;
+  background-color: #FF6B6B;
+  font-weight: bold;
+  border-radius:20px;
+  color:white;
+  cursor: pointer;
+}
+
+.delete_link:hover{
+  background-color: #FF2626 ;
+}

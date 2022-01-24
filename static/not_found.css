@@ -1,0 +1,58 @@
+html{
+  font-family: 'Klee One', cursive;
+}
+
+body{
+  margin: 0px;
+  justify-content: center;
+  display: flex;
+  background-image: url("images/1.jpg");
+}
+
+.logo{
+  margin-right: 20px;
+  width: 80px;
+  background-color: white;
+  border-radius: 20%;
+  margin-top: 20px;
+}
+.p_welcome{
+  font-size: 20px;
+  margin-top: 8px;
+}
+.main_body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-top: 7%;
+  height: fit-content;
+  background-color: #FDFFCD;
+  opacity: 0.9;
+}
+.main_body:hover{
+  background-color: #F4F9F4;
+  opacity:1.0;
+  filter:alpha(opacity=100);
+}
+form{
+  padding: 20px;
+  margin: 0px;
+}
+.login_button{
+  width: 80%;
+  height: 20%;
+  border: none;
+  font-size: inherit;
+  background-color: #E4FBFF;
+  font-weight: bold;
+  border-radius:20px;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-left: 6%;
+  font-family: inherit;
+  color: #726A95;
+}
+.login_button:hover{
+  background-color: #39A2DB;
+}
